@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2023-10-27T16:52:59+02:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///C:/Users/Adan Tallman/Desktop/Tyopologymethods_FSU_2023_2024/06_recordings/2023-10-27/sout_0002.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./sout_0002.wav"/>
+        <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:5b2776d4-af5c-4253-8350-8a94910efeef</PROPERTY>
+        <PROPERTY NAME="lastUsedAnnotationId">2</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="1306"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="5523"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="Text" TIER_ID="Interlinear-title-eng"/>
+    <TIER LINGUISTIC_TYPE_REF="Phrases" PARTICIPANT="Thao" TIER_ID="Thao_Transcription-txt-eng">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>ʌ hom5we3 gʌn3ɗi5 haw31ve1 ...</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Words" PARENT_REF="Thao_Transcription-txt-eng" PARTICIPANT="Thao" TIER_ID="Thao_Words-txt-eng"/>
+    <TIER LINGUISTIC_TYPE_REF="Note" PARENT_REF="Thao_Transcription-txt-eng" PARTICIPANT="Thao" TIER_ID="Thao_Translation-gls-fr">
+        <ANNOTATION>
+            <REF_ANNOTATION ANNOTATION_ID="a2" ANNOTATION_REF="a1">
+                <ANNOTATION_VALUE>Yesterday after I came back from school ...</ANNOTATION_VALUE>
+            </REF_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="Note" PARENT_REF="Thao_Transcription-txt-eng" PARTICIPANT="Thao" TIER_ID="Thao_Participant-note-eng"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Phrases" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Blank" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Subdivision" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Words" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Text" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Note" TIME_ALIGNABLE="false"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>
